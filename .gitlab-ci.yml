@@ -1,0 +1,45 @@
+cache:
+  paths:
+    - .m2/repository
+
+image: maven:3.6.0-jdk-8
+
+stages:
+    - teste-unidade
+    - teste-cobertura
+    - construcao
+    - implantacao
+    - test-desempenho
+  
+teste-unidade:
+  stage: teste-unidade
+  script: mvn test -e
+  
+teste-cobertura:
+  stage: teste-cobertura
+  script: mvn surefire-report:report
+  artifacts:
+    paths:
+        - target/site/surefire-report.html
+    expire_in: 1 day
+    reports:
+      junit:
+        - target/surefire-reports/TEST-*.xml
+        - target/failsafe-reports/TEST-*.xml
+
+construcao:
+  stage: construcao
+  script: mvn clean install -Dmaven.test.skip=true
+
+implantacao:
+  stage: implantacao
+  script: mvn clean heroku:deploy -Dmaven.test.skip=true
+
+test-desempenho:
+  stage: test-desempenho
+  image: smithmicro/jmeter
+  script: jmeter -n -t jmeter/EduPlan.jmx -l jmeter/reports/jmeterResultado.jtl -e -o jmeter/reports/
+  artifacts:
+    paths:
+    - jmeter/reports/*
+    expire_in: 1 day

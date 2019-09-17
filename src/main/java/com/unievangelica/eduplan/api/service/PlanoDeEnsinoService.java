@@ -1,0 +1,28 @@
+package com.unievangelica.eduplan.api.service;
+
+import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Component;
+
+import com.unievangelica.eduplan.api.security.entity.PlanoDeEnsino;
+
+@Component
+public interface PlanoDeEnsinoService {
+
+	PlanoDeEnsino createOrUpdate(PlanoDeEnsino planoDeEnsino);
+	
+	PlanoDeEnsino findById(String id);
+	
+	void delete(String id);
+	
+	Page<PlanoDeEnsino> listPlanoDeEnsino(int page, int count);
+	
+	Page<PlanoDeEnsino> findByCurrentUser(int page, int count, String userId);
+	
+	Page<PlanoDeEnsino> findByParameters(int page, int count,String disciplina);
+	
+	Page<PlanoDeEnsino> findByParametersAndCurrentUser(int page, int count,String disciplina,String userId);
+	
+	Page<PlanoDeEnsino> findByNumero(int page, int count,Integer numero);
+	
+	Iterable<PlanoDeEnsino> findAll();
+}
