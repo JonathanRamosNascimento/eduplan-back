@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0459784-b397-4f59-a1db-da98cb255f8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -49,7 +50,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,6 +122,9 @@
       <workItem from="1570076719922" duration="73000" />
       <workItem from="1570226188265" duration="348000" />
       <workItem from="1570472572712" duration="3337000" />
+      <workItem from="1570899232973" duration="503000" />
+      <workItem from="1570899752178" duration="37000" />
+      <workItem from="1570900027297" duration="89000" />
     </task>
     <servers />
   </component>
@@ -141,8 +145,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="220" height="276" key="Git.Branch.Popup" />
+    <state width="222" height="278" key="Git.Branch.Popup" />
+    <state width="222" height="278" key="Git.Branch.Popup/1920.1080/2560.1080" />
     <state width="220" height="276" key="Git.Branch.Popup/2560.1080/1920.1080" />
+    <state width="222" height="278" key="Git.Branch.Popup@1920.1080" />
     <state width="220" height="276" key="Git.Branch.Popup@2560.1080" />
   </component>
 </project>
