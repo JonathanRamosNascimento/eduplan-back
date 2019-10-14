@@ -19,8 +19,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.unievangelica.eduplan.api.repository.UserRepository;
-import com.unievangelica.eduplan.api.security.entity.User;
-import com.unievangelica.eduplan.api.security.enums.ProfileEnum;
+import com.unievangelica.eduplan.api.entity.User;
+import com.unievangelica.eduplan.api.enums.ProfileEnum;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 public class UserServiceImplTest {

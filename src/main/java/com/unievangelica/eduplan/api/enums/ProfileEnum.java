@@ -1,4 +1,4 @@
-package com.unievangelica.eduplan.api.security.enums;
+package com.unievangelica.eduplan.api.enums;
 
 public enum ProfileEnum {
 	ROLE_DIRETOR,

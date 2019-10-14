@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.unievangelica.eduplan.api.response.Response;
-import com.unievangelica.eduplan.api.security.entity.User;
+import com.unievangelica.eduplan.api.entity.User;
 import com.unievangelica.eduplan.api.service.UserService;
 
 import io.swagger.annotations.Api;

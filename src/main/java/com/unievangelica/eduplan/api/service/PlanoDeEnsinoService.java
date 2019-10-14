@@ -3,7 +3,7 @@ package com.unievangelica.eduplan.api.service;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Component;
 
-import com.unievangelica.eduplan.api.security.entity.PlanoDeEnsino;
+import com.unievangelica.eduplan.api.entity.PlanoDeEnsino;
 
 @Component
 public interface PlanoDeEnsinoService {

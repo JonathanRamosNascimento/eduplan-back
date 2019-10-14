@@ -19,7 +19,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.unievangelica.eduplan.api.repository.PlanoDeEnsinoRepository;
-import com.unievangelica.eduplan.api.security.entity.PlanoDeEnsino;
+import com.unievangelica.eduplan.api.entity.PlanoDeEnsino;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 public class PlanoDeEnsinoServiceImplTest {

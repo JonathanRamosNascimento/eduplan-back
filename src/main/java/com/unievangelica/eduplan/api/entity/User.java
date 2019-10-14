@@ -1,4 +1,4 @@
-package com.unievangelica.eduplan.api.security.entity;
+package com.unievangelica.eduplan.api.entity;
 
 import javax.validation.constraints.Size;
 
@@ -10,7 +10,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.unievangelica.eduplan.api.security.enums.ProfileEnum;
+import com.unievangelica.eduplan.api.enums.ProfileEnum;
 
 @Getter
 @Setter

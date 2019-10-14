@@ -1,4 +1,4 @@
-package com.unievangelica.eduplan.api.security.entity;
+package com.unievangelica.eduplan.api.entity;
 
 import java.util.Date;
 

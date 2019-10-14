@@ -1,6 +1,6 @@
 package com.unievangelica.eduplan.api.security.model;
 
-import com.unievangelica.eduplan.api.security.entity.User;
+import com.unievangelica.eduplan.api.entity.User;
 
 public class CurrentUser {
 	

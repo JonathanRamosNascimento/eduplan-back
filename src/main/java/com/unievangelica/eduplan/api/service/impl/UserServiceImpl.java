@@ -1,7 +1,7 @@
 package com.unievangelica.eduplan.api.service.impl;
 
 import com.unievangelica.eduplan.api.repository.UserRepository;
-import com.unievangelica.eduplan.api.security.entity.User;
+import com.unievangelica.eduplan.api.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

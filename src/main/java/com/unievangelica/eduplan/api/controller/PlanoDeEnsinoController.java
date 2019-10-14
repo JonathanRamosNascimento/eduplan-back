@@ -22,9 +22,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.unievangelica.eduplan.api.response.Response;
-import com.unievangelica.eduplan.api.security.entity.PlanoDeEnsino;
-import com.unievangelica.eduplan.api.security.entity.User;
-import com.unievangelica.eduplan.api.security.enums.ProfileEnum;
+import com.unievangelica.eduplan.api.entity.PlanoDeEnsino;
+import com.unievangelica.eduplan.api.entity.User;
+import com.unievangelica.eduplan.api.enums.ProfileEnum;
 import com.unievangelica.eduplan.api.security.jwt.JwtTokenUtil;
 import com.unievangelica.eduplan.api.service.PlanoDeEnsinoService;
 import com.unievangelica.eduplan.api.service.UserService;

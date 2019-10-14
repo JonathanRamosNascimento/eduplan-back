@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0459784-b397-4f59-a1db-da98cb255f8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/EduPlanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/EduPlanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/PlanoDeEnsinoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/PlanoDeEnsinoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/PlanoDeEnsinoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/PlanoDeEnsinoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/controller/AuthenticationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/controller/AuthenticationRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/entity/PlanoDeEnsino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/PlanoDeEnsino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/enums/ProfileEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/enums/ProfileEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/jwt/JwtUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/jwt/JwtUserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/model/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/model/CurrentUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/service/JwtUserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/service/JwtUserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/PlanoDeEnsinoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/PlanoDeEnsinoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/UserServiceImplTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +141,9 @@
       <workItem from="1570472572712" duration="3337000" />
       <workItem from="1570899232973" duration="503000" />
       <workItem from="1570899752178" duration="37000" />
-      <workItem from="1570900027297" duration="89000" />
+      <workItem from="1570900027297" duration="303000" />
+      <workItem from="1570928275328" duration="673000" />
+      <workItem from="1571017396766" duration="1958000" />
     </task>
     <servers />
   </component>

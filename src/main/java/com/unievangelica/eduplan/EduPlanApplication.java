@@ -1,8 +1,8 @@
 package com.unievangelica.eduplan;
 
 import com.unievangelica.eduplan.api.repository.UserRepository;
-import com.unievangelica.eduplan.api.security.entity.User;
-import com.unievangelica.eduplan.api.security.enums.ProfileEnum;
+import com.unievangelica.eduplan.api.entity.User;
+import com.unievangelica.eduplan.api.enums.ProfileEnum;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

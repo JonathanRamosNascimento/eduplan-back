@@ -1,6 +1,6 @@
 package com.unievangelica.eduplan.api.service;
 
-import com.unievangelica.eduplan.api.security.entity.User;
+import com.unievangelica.eduplan.api.entity.User;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Component;
 

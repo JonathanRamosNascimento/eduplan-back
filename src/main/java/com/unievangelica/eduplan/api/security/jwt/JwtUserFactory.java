@@ -3,8 +3,8 @@ package com.unievangelica.eduplan.api.security.jwt;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.unievangelica.eduplan.api.security.entity.User;
-import com.unievangelica.eduplan.api.security.enums.ProfileEnum;
+import com.unievangelica.eduplan.api.entity.User;
+import com.unievangelica.eduplan.api.enums.ProfileEnum;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 

@@ -7,7 +7,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
-import com.unievangelica.eduplan.api.security.entity.PlanoDeEnsino;
+import com.unievangelica.eduplan.api.entity.PlanoDeEnsino;
 import com.unievangelica.eduplan.api.service.PlanoDeEnsinoService;
 
 @Component

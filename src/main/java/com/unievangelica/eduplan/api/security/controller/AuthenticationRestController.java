@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.unievangelica.eduplan.api.security.entity.User;
+import com.unievangelica.eduplan.api.entity.User;
 import com.unievangelica.eduplan.api.security.jwt.JwtAuthenticationRequest;
 import com.unievangelica.eduplan.api.security.jwt.JwtTokenUtil;
 import com.unievangelica.eduplan.api.security.model.CurrentUser;
