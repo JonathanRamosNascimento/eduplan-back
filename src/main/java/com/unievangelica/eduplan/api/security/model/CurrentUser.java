@@ -1,7 +1,11 @@
 package com.unievangelica.eduplan.api.security.model;
 
 import com.unievangelica.eduplan.api.entity.User;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class CurrentUser {
 	
 	private String token;
@@ -9,22 +13,6 @@ public class CurrentUser {
 
 	public CurrentUser(String token, User user) {
 		this.token = token;
-		this.user = user;
-	}
-
-	public String getToken() {
-		return token;
-	}
-
-	public void setToken(String token) {
-		this.token = token;
-	}
-
-	public User getUser() {
-		return user;
-	}
-
-	public void setUser(User user) {
 		this.user = user;
 	}
 }
