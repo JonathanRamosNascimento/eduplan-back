@@ -37,7 +37,7 @@ public class SubjectController {
         Response<Subject> response = new Response<Subject>();
         try {
             validateCreateSubject(subject, result);
-            if(result.hasErrors()) {
+            if (result.hasErrors()) {
                 result.getAllErrors().forEach(error -> response.getErrors().add(error.getDefaultMessage()));
                 return ResponseEntity.badRequest().body(response);
             }
@@ -51,7 +51,7 @@ public class SubjectController {
     }
 
     private void validateCreateSubject(Subject subject, BindingResult result) {
-        if(subject.getNome() == null) {
+        if (subject.getNome() == null) {
             result.addError(new ObjectError("Disciplina", "Nome da disciplina não informado"));
             return;
         }
@@ -69,7 +69,7 @@ public class SubjectController {
         Response<Subject> response = new Response<Subject>();
         try {
             validateUpdateSubject(subject, result);
-            if(result.hasErrors()) {
+            if (result.hasErrors()) {
                 result.getAllErrors().forEach(error -> response.getErrors().add(error.getDefaultMessage()));
                 return ResponseEntity.badRequest().body(response);
             }
@@ -83,7 +83,7 @@ public class SubjectController {
     }
 
     private void validateUpdateSubject(Subject subject, BindingResult result) {
-        if(subject.getId() == null) {
+        if (subject.getId() == null) {
             result.addError(new ObjectError("Disciplina", "Id não informado"));
             return;
         }
@@ -94,7 +94,7 @@ public class SubjectController {
     public ResponseEntity<Response<Subject>> findById(@PathVariable("id") String id) {
         Response<Subject> response = new Response<Subject>();
         Subject subject = subjectService.findById(id);
-        if(subject == null){
+        if (subject == null) {
             response.getErrors().add("Id não encontrado: " + id);
             return ResponseEntity.badRequest().body(response);
         }
@@ -107,7 +107,7 @@ public class SubjectController {
     public ResponseEntity<Response<String>> delete(@PathVariable("id") String id) {
         Response<String> response = new Response<String>();
         Subject subject = subjectService.findById(id);
-        if(subject == null ){
+        if (subject == null) {
             response.getErrors().add("Id não encontrado: " + id);
             return ResponseEntity.badRequest().body(response);
         }
@@ -121,7 +121,7 @@ public class SubjectController {
         Response<Page<Subject>> response = new Response<Page<Subject>>();
         Page<Subject> subjects = null;
         User userRequest = userFromRequest(request);
-        if(userRequest.getProfile().equals(ProfileEnum.ROLE_DOCENTE) || userRequest.getProfile().equals(ProfileEnum.ROLE_DIRETOR)) {
+        if (userRequest.getProfile().equals(ProfileEnum.ROLE_DOCENTE) || userRequest.getProfile().equals(ProfileEnum.ROLE_DIRETOR)) {
             subjects = subjectService.listSubject(page, count);
         }
         response.setData(subjects);
