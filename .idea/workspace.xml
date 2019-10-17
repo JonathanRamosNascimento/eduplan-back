@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0459784-b397-4f59-a1db-da98cb255f8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/SubjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/SubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/SubjectServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/EduPlanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/EduPlanApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/PlanoDeEnsinoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/PlanoDeEnsinoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/PlanoDeEnsinoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/PlanoDeEnsinoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/controller/AuthenticationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/controller/AuthenticationRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/entity/PlanoDeEnsino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/PlanoDeEnsino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/enums/ProfileEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/enums/ProfileEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/jwt/JwtUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/jwt/JwtUserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/model/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/model/CurrentUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/service/JwtUserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/security/service/JwtUserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/PlanoDeEnsinoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/PlanoDeEnsinoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/PlanoDeEnsinoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/UserServiceImplTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +19,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>titulo</find>
-      <find>ROLE</find>
-    </findStrings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -44,6 +36,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QSbicDB6ONpwofJipFeXx9eLo5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -55,6 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552102398943" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -144,6 +140,7 @@
       <workItem from="1570900027297" duration="303000" />
       <workItem from="1570928275328" duration="673000" />
       <workItem from="1571017396766" duration="1958000" />
+      <workItem from="1571324455306" duration="4041000" />
     </task>
     <servers />
   </component>
