@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0459784-b397-4f59-a1db-da98cb255f8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/SubjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/SubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/SubjectController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/PlanoDeEnsinoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/unievangelica/eduplan/api/service/impl/UserServiceImplTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +133,7 @@
       <workItem from="1570928275328" duration="673000" />
       <workItem from="1571017396766" duration="1958000" />
       <workItem from="1571324455306" duration="4041000" />
+      <workItem from="1571329425689" duration="2522000" />
     </task>
     <servers />
   </component>
@@ -165,6 +158,6 @@
     <state width="222" height="278" key="Git.Branch.Popup/1920.1080/2560.1080" />
     <state width="220" height="276" key="Git.Branch.Popup/2560.1080/1920.1080" />
     <state width="222" height="278" key="Git.Branch.Popup@1920.1080" />
-    <state width="220" height="276" key="Git.Branch.Popup@2560.1080" />
+    <state width="222" height="278" key="Git.Branch.Popup@2560.1080" />
   </component>
 </project>
