@@ -36,7 +36,6 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping("/api/plano-de-ensino")
 @CrossOrigin(origins = "*")
-@Api(value = "Greeting", description = "API de Plano de Ensino")
 public class PlanoDeEnsinoController {
 
 	@Autowired

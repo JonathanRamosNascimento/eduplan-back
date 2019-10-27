@@ -30,7 +30,6 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping("/api/user")
 @CrossOrigin(origins = "*")
-@Api(value = "Greeting", description = "API de Usuário")
 public class UserController {
 	
 	@Autowired
