@@ -29,9 +29,6 @@ import com.unievangelica.eduplan.api.security.jwt.JwtTokenUtil;
 import com.unievangelica.eduplan.api.service.PlanoDeEnsinoService;
 import com.unievangelica.eduplan.api.service.UserService;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-
 
 @RestController
 @RequestMapping("/api/plano-de-ensino")
@@ -46,8 +43,7 @@ public class PlanoDeEnsinoController {
     
 	@Autowired
 	private UserService userService;
-	
-	@ApiOperation(value = "Criar Plano de Ensino")
+
 	@PostMapping()
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
 	public ResponseEntity<Response<PlanoDeEnsino>> create(HttpServletRequest request, @RequestBody PlanoDeEnsino planoDeEnsino,
@@ -91,7 +87,6 @@ public class PlanoDeEnsinoController {
 	
 	@PutMapping()
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
-	@ApiOperation(value = "Alterar Plano de Ensino")
 	public ResponseEntity<Response<PlanoDeEnsino>> update(HttpServletRequest request, @RequestBody PlanoDeEnsino planoDeEnsino,
 			BindingResult result) {
 		Response<PlanoDeEnsino> response = new Response<PlanoDeEnsino>();
@@ -128,7 +123,6 @@ public class PlanoDeEnsinoController {
 	
 	@GetMapping(value = "{id}")
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
-	@ApiOperation(value = "Buscar Plano de Ensino por Id")
 	public ResponseEntity<Response<PlanoDeEnsino>> findById(@PathVariable("id") String id) {
 		Response<PlanoDeEnsino> response = new Response<PlanoDeEnsino>();
 		PlanoDeEnsino planoDeEnsino = planoDeEnsinoService.findById(id);
@@ -142,7 +136,6 @@ public class PlanoDeEnsinoController {
 	
 	@DeleteMapping(value = "/{id}")
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
-	@ApiOperation(value = "Apagar Plano de Ensino")
 	public ResponseEntity<Response<String>> delete(@PathVariable("id") String id) {
 		Response<String> response = new Response<String>();
 		PlanoDeEnsino planoDeEnsino = planoDeEnsinoService.findById(id);
@@ -157,7 +150,6 @@ public class PlanoDeEnsinoController {
 	
 	@GetMapping(value = "{page}/{count}")
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
-	@ApiOperation(value = "Buscar Todos os Planos de Ensino")
     public  ResponseEntity<Response<Page<PlanoDeEnsino>>> findAll(HttpServletRequest request, @PathVariable int page, @PathVariable int count) {
 		
 		Response<Page<PlanoDeEnsino>> response = new Response<Page<PlanoDeEnsino>>();
@@ -174,7 +166,6 @@ public class PlanoDeEnsinoController {
 	
 	@GetMapping(value = "{page}/{count}/{numero}/{disciplina}")
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
-	@ApiOperation(value = "Busca Plano de Ensino pelo Filtro")
     public  ResponseEntity<Response<Page<PlanoDeEnsino>>> findByParams(HttpServletRequest request, 
     		 							@PathVariable int page, 
     		 							@PathVariable int count,

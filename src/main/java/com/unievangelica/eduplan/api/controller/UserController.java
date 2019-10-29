@@ -24,9 +24,6 @@ import com.unievangelica.eduplan.api.response.Response;
 import com.unievangelica.eduplan.api.entity.User;
 import com.unievangelica.eduplan.api.service.UserService;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-
 @RestController
 @RequestMapping("/api/user")
 @CrossOrigin(origins = "*")
@@ -40,7 +37,6 @@ public class UserController {
 
 	@PostMapping()
 	@PreAuthorize("hasAnyRole('DIRETOR')")
-	@ApiOperation(value = "Criar Usuário")
 	public ResponseEntity<Response<User>> create(HttpServletRequest request, @RequestBody User user,
 			BindingResult result) {
 		Response<User> response = new Response<User>();
@@ -72,7 +68,6 @@ public class UserController {
 	
 	@PutMapping()
 	@PreAuthorize("hasAnyRole('DIRETOR')")
-	@ApiOperation(value = "Alterar Usuário")
 	public ResponseEntity<Response<User>> update(HttpServletRequest request, @RequestBody User user,
 			BindingResult result) {
 		Response<User> response = new Response<User>();
@@ -105,7 +100,6 @@ public class UserController {
 	
 	@GetMapping(value = "{id}")
 	@PreAuthorize("hasAnyRole('DIRETOR')")
-	@ApiOperation(value = "Buscar Usuário por Id")
 	public ResponseEntity<Response<User>> findById(@PathVariable("id") String id) {
 		Response<User> response = new Response<User>();
 		User user = userService.findById(id);
@@ -119,7 +113,6 @@ public class UserController {
 	
 	@DeleteMapping(value = "/{id}")
 	@PreAuthorize("hasAnyRole('DIRETOR')")
-	@ApiOperation(value = "Apagar Usuário")
 	public ResponseEntity<Response<String>> delete(@PathVariable("id") String id) {
 		Response<String> response = new Response<String>();
 		User user = userService.findById(id);
@@ -134,7 +127,6 @@ public class UserController {
 	
 	@GetMapping(value = "{page}/{count}")
 	@PreAuthorize("hasAnyRole('DIRETOR')")
-	@ApiOperation(value = "Buscar todos os Usuários")
     public  ResponseEntity<Response<Page<User>>> findAll(@PathVariable int page, @PathVariable int count) {
 		Response<Page<User>> response = new Response<Page<User>>();
 		Page<User> users = userService.findAll(page, count);
