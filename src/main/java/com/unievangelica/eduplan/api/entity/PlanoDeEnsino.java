@@ -23,17 +23,7 @@ public class PlanoDeEnsino {
 
 	private String disciplina;
 
-	private Integer numero;
-
 	private String turno;
-
-	private String chteorica;
-
-	private String chpratica;
-
-	private String chtotal;
-
-	private String creditos;
 
 	private String periodo;
 
@@ -41,43 +31,33 @@ public class PlanoDeEnsino {
 
 	private String semestre;
 
+	private String chtotal;
+
+	private String chteorica;
+
+	private String chpratica;
+
 	private String ementa;
 
-	private String justificativa;
+	private String objetivoGeral;
 
-	private String objetivos;
+    private String objetivoEspecifico;
 
-	private String competenciaPreTextual;
+    private String habilidadeCompetencias;
 
-	private String competenciaPessoal;
+    private String conteudoProgramatico;
 
-	private String competenciaInterpessoal;
+    private String procedimentosDidaticos;
 
-	private String competenciaTecnica;
+    private String atividadeIntegrativa;
 
-	private String competenciaPosTextual;
+    private String primeiraVA;
 
-	private String interPreTextual;
+    private String segundaVA;
 
-	private String interdisciplinaridade;
+    private String terceiraVA;
 
-	private String unidadeDidatica;
+    private String bibliografiaBasica;
 
-	private String cronogramaAulas;
-
-	private String desenvolvimento;
-
-	private String avaliacaoPreTextual;
-
-	private String primeiraVa;
-
-	private String segundaVa;
-
-	private String terceiraVa;
-
-	private String observacoes;
-
-	private String biblioBasica;
-
-	private String biblioComplementar;
+    private String bibliografiaComplementar;
 }

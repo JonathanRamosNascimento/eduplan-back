@@ -15,10 +15,33 @@ public class Subject {
 
     private String nome;
 
-    private String observacoes;
+    private String chteorica;
 
-    private String biblioBasica;
+    private String chpratica;
 
-    private String biblioComplementar;
+    private String chtotal;
 
+    private String ementa;
+
+    private String objetivoGeral;
+
+    private String objetivoEspecifico;
+
+    private String habilidadeCompetencias;
+
+    private String conteudoProgramatico;
+
+    private String procedimentosDidaticos;
+
+    private String atividadeIntegrativa;
+
+    private String primeiraVA;
+
+    private String segundaVA;
+
+    private String terceiraVA;
+
+    private String bibliografiaBasica;
+
+    private String bibliografiaComplementar;
 }
