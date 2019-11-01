@@ -11,10 +11,10 @@ public interface PlanoDeEnsinoRepository extends MongoRepository<PlanoDeEnsino, 
 	
 	Page<PlanoDeEnsino> findByUserIdOrderByDataDesc(Pageable pages, String userId);
 	
-	Page<PlanoDeEnsino> findByDisciplinaIgnoreCaseContainingOrderByDataDesc(String disciplina, Pageable pages);
+	// Page<PlanoDeEnsino> findByDisciplinaIgnoreCaseContainingOrderByDataDesc(String disciplina, Pageable pages);
 	
-	Page<PlanoDeEnsino> findByDisciplinaIgnoreCaseContainingAndUserIdOrderByDataDesc(String disciplina, String userId, Pageable pages);
+	// Page<PlanoDeEnsino> findByDisciplinaIgnoreCaseContainingAndUserIdOrderByDataDesc(String disciplina, String userId, Pageable pages);
 	
-	Page<PlanoDeEnsino> findByNumero(Integer numero, Pageable pages);
+	// Page<PlanoDeEnsino> findByNumero(Integer numero, Pageable pages);
 
 }

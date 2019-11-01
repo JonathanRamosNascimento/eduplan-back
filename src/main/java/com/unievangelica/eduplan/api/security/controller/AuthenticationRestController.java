@@ -22,12 +22,8 @@ import com.unievangelica.eduplan.api.security.jwt.JwtTokenUtil;
 import com.unievangelica.eduplan.api.security.model.CurrentUser;
 import com.unievangelica.eduplan.api.service.UserService;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-
 @RestController
 @CrossOrigin(origins = "*")
-@Api(value = "Greeting", description = "API de Autenticação")
 public class AuthenticationRestController {
 
     @Autowired
@@ -43,7 +39,6 @@ public class AuthenticationRestController {
     private UserService userService;
 
     @PostMapping(value="/api/auth")
-    @ApiOperation(value = "Cria Token de Autenticação")
     public ResponseEntity<?> createAuthenticationToken(@RequestBody JwtAuthenticationRequest authenticationRequest) throws AuthenticationException {
 
         final Authentication authentication = authenticationManager.authenticate(
@@ -61,7 +56,6 @@ public class AuthenticationRestController {
     }
 
     @PostMapping(value="/api/refresh")
-    @ApiOperation(value = "Atualiza o Token de Autenticação")
     public ResponseEntity<?> refreshAndGetAuthenticationToken(HttpServletRequest request) {
         String token = request.getHeader("Authorization");
         String username = jwtTokenUtil.getUsernameFromToken(token);
