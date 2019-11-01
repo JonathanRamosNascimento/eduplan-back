@@ -1,45 +1,29 @@
 package com.unievangelica.eduplan.api.entity;
 
-import java.util.Date;
-
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Getter
 @Setter
 @Document
-public class PlanoDeEnsino {
+public class Subject {
 
-	@Id
-	private String id;
+    @Id
+    private String id;
 
-	@DBRef(lazy = true)
-	private User user;
+    private String nome;
 
-	private Date data;
+    private String chteorica;
 
-	private String disciplina;
+    private String chpratica;
 
-	private String turno;
+    private String chtotal;
 
-	private String periodo;
+    private String ementa;
 
-	private String ano;
-
-	private String semestre;
-
-	private String chtotal;
-
-	private String chteorica;
-
-	private String chpratica;
-
-	private String ementa;
-
-	private String objetivoGeral;
+    private String objetivoGeral;
 
     private String objetivoEspecifico;
 
