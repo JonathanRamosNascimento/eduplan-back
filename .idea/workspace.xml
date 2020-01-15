@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0459784-b397-4f59-a1db-da98cb255f8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +20,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QSbicDB6ONpwofJipFeXx9eLo5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -27,6 +32,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -49,18 +55,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.unievangelica.eduplan.api" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EduplanApplication">
     <configuration name="All in EduPlan (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -95,6 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.All in EduPlan" />
+      <item itemvalue="JUnit.All in EduPlan (1)" />
+      <item itemvalue="JUnit.All in EduPlan (2)" />
+      <item itemvalue="Spring Boot.EduplanApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in EduPlan (2)" />
@@ -102,6 +102,18 @@
         <item itemvalue="JUnit.All in EduPlan" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -154,6 +166,11 @@
       <workItem from="1572392449179" duration="162000" />
       <workItem from="1572483055184" duration="2910000" />
       <workItem from="1572529169045" duration="49000" />
+      <workItem from="1578970863908" duration="321000" />
+      <workItem from="1578971198267" duration="118000" />
+      <workItem from="1578971327235" duration="71000" />
+      <workItem from="1579060358497" duration="628000" />
+      <workItem from="1579064184850" duration="520000" />
     </task>
     <servers />
   </component>
@@ -174,10 +191,77 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="224" height="280" key="Git.Branch.Popup" />
-    <state width="224" height="280" key="Git.Branch.Popup/1920.1080/2560.1080" />
-    <state width="220" height="276" key="Git.Branch.Popup/2560.1080/1920.1080" />
-    <state width="224" height="280" key="Git.Branch.Popup@1920.1080" />
-    <state width="224" height="280" key="Git.Branch.Popup@2560.1080" />
+    <state x="1104" y="1295" width="800" height="675" key="#Project_Structure" timestamp="1578971232494">
+      <screen x="304" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="1104" y="1295" width="800" height="675" key="#Project_Structure/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971232494" />
+    <state x="967" y="1292" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578971275564">
+      <screen x="304" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="967" y="1292" key="#com.intellij.execution.impl.EditConfigurationsDialog/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971275564" />
+    <state x="1241" y="1418" width="525" height="429" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578971272869">
+      <screen x="304" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="1241" y="1418" width="525" height="429" key="#com.intellij.ide.util.TreeClassChooserDialog/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971272869" />
+    <state x="1287" y="1390" width="424" height="482" key="FileChooserDialogImpl" timestamp="1578971227957">
+      <screen x="304" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="1287" y="1390" width="424" height="482" key="FileChooserDialogImpl/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971227957" />
+    <state width="226" height="282" key="Git.Branch.Popup" timestamp="1579064694900">
+      <screen x="303" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="224" height="280" key="Git.Branch.Popup/1920.1080/2560.1080" timestamp="1578970862835" />
+    <state width="220" height="276" key="Git.Branch.Popup/2560.1080/1920.1080" timestamp="1578970862835" />
+    <state width="226" height="282" key="Git.Branch.Popup/303.1080.1920.1080/0.0.2560.1080@303.1080.1920.1080" timestamp="1579064694900" />
+    <state width="224" height="280" key="Git.Branch.Popup@1920.1080" timestamp="1578970862835" />
+    <state width="224" height="280" key="Git.Branch.Popup@2560.1080" timestamp="1578970862835" />
+    <state width="1350" height="276" key="GridCell.Tab.0.bottom" timestamp="1579062689707">
+      <screen x="303" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1350" height="276" key="GridCell.Tab.0.bottom/303.1080.1920.1080/0.0.2560.1080@303.1080.1920.1080" timestamp="1579062689707" />
+    <state width="1350" height="264" key="GridCell.Tab.0.bottom/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971398083" />
+    <state width="1350" height="276" key="GridCell.Tab.0.center" timestamp="1579062689706">
+      <screen x="303" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1350" height="276" key="GridCell.Tab.0.center/303.1080.1920.1080/0.0.2560.1080@303.1080.1920.1080" timestamp="1579062689706" />
+    <state width="1350" height="264" key="GridCell.Tab.0.center/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971398083" />
+    <state width="1350" height="276" key="GridCell.Tab.0.left" timestamp="1579062689706">
+      <screen x="303" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1350" height="276" key="GridCell.Tab.0.left/303.1080.1920.1080/0.0.2560.1080@303.1080.1920.1080" timestamp="1579062689706" />
+    <state width="1350" height="264" key="GridCell.Tab.0.left/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971398083" />
+    <state width="1350" height="276" key="GridCell.Tab.0.right" timestamp="1579062689707">
+      <screen x="303" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1350" height="276" key="GridCell.Tab.0.right/303.1080.1920.1080/0.0.2560.1080@303.1080.1920.1080" timestamp="1579062689707" />
+    <state width="1350" height="264" key="GridCell.Tab.0.right/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971398083" />
+    <state width="1350" height="276" key="GridCell.Tab.1.bottom" timestamp="1579062689707">
+      <screen x="303" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1350" height="276" key="GridCell.Tab.1.bottom/303.1080.1920.1080/0.0.2560.1080@303.1080.1920.1080" timestamp="1579062689707" />
+    <state width="1350" height="264" key="GridCell.Tab.1.bottom/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971398083" />
+    <state width="1350" height="276" key="GridCell.Tab.1.center" timestamp="1579062689707">
+      <screen x="303" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1350" height="276" key="GridCell.Tab.1.center/303.1080.1920.1080/0.0.2560.1080@303.1080.1920.1080" timestamp="1579062689707" />
+    <state width="1350" height="264" key="GridCell.Tab.1.center/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971398083" />
+    <state width="1350" height="276" key="GridCell.Tab.1.left" timestamp="1579062689707">
+      <screen x="303" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1350" height="276" key="GridCell.Tab.1.left/303.1080.1920.1080/0.0.2560.1080@303.1080.1920.1080" timestamp="1579062689707" />
+    <state width="1350" height="264" key="GridCell.Tab.1.left/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971398083" />
+    <state width="1350" height="276" key="GridCell.Tab.1.right" timestamp="1579062689707">
+      <screen x="303" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1350" height="276" key="GridCell.Tab.1.right/303.1080.1920.1080/0.0.2560.1080@303.1080.1920.1080" timestamp="1579062689707" />
+    <state width="1350" height="264" key="GridCell.Tab.1.right/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971398083" />
+    <state x="990" y="1269" width="1024" height="843" key="SettingsEditor" timestamp="1578971295662">
+      <screen x="304" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="990" y="1269" width="1024" height="843" key="SettingsEditor/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578971295662" />
+    <state x="959" y="1450" key="com.intellij.ide.util.TipDialog" timestamp="1578970871554">
+      <screen x="304" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="959" y="1450" key="com.intellij.ide.util.TipDialog/304.1080.1920.1080/0.0.2560.1080@304.1080.1920.1080" timestamp="1578970871554" />
   </component>
 </project>
