@@ -36,7 +36,6 @@ public class UserController {
 	private PasswordEncoder passwordEncoder;
 
 	@PostMapping()
-	@PreAuthorize("hasAnyRole('DIRETOR')")
 	public ResponseEntity<Response<User>> create(HttpServletRequest request, @RequestBody User user,
 			BindingResult result) {
 		Response<User> response = new Response<User>();

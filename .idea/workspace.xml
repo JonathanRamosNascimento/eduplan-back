@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0459784-b397-4f59-a1db-da98cb255f8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/entity/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +20,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QSbicDB6ONpwofJipFeXx9eLo5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -27,6 +32,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -49,18 +55,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.unievangelica.eduplan.api" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EduplanApplication">
     <configuration name="All in EduPlan (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -154,6 +148,11 @@
       <workItem from="1572392449179" duration="162000" />
       <workItem from="1572483055184" duration="2910000" />
       <workItem from="1572529169045" duration="49000" />
+      <workItem from="1580441981082" duration="627000" />
+      <workItem from="1580782981098" duration="634000" />
+      <workItem from="1580818298546" duration="756000" />
+      <workItem from="1580821656561" duration="23000" />
+      <workItem from="1580821699948" duration="8000" />
     </task>
     <servers />
   </component>
@@ -174,10 +173,50 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="224" height="280" key="Git.Branch.Popup" />
-    <state width="224" height="280" key="Git.Branch.Popup/1920.1080/2560.1080" />
-    <state width="220" height="276" key="Git.Branch.Popup/2560.1080/1920.1080" />
-    <state width="224" height="280" key="Git.Branch.Popup@1920.1080" />
-    <state width="224" height="280" key="Git.Branch.Popup@2560.1080" />
+    <state width="224" height="280" key="Git.Branch.Popup" timestamp="1580441978488" />
+    <state width="224" height="280" key="Git.Branch.Popup/1920.1080/2560.1080" timestamp="1580441978489" />
+    <state width="220" height="276" key="Git.Branch.Popup/2560.1080/1920.1080" timestamp="1580441978489" />
+    <state width="224" height="280" key="Git.Branch.Popup@1920.1080" timestamp="1580441978489" />
+    <state width="224" height="280" key="Git.Branch.Popup@2560.1080" timestamp="1580441978489" />
+    <state width="1340" height="272" key="GridCell.Tab.0.bottom" timestamp="1580786134463">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580786134463" />
+    <state width="1340" height="272" key="GridCell.Tab.0.center" timestamp="1580786134463">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="272" key="GridCell.Tab.0.center/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580786134463" />
+    <state width="1340" height="272" key="GridCell.Tab.0.left" timestamp="1580786134463">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="272" key="GridCell.Tab.0.left/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580786134463" />
+    <state width="1340" height="272" key="GridCell.Tab.0.right" timestamp="1580786134463">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="272" key="GridCell.Tab.0.right/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580786134463" />
+    <state width="1340" height="272" key="GridCell.Tab.1.bottom" timestamp="1580786134464">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580786134464" />
+    <state width="1340" height="272" key="GridCell.Tab.1.center" timestamp="1580786134464">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="272" key="GridCell.Tab.1.center/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580786134464" />
+    <state width="1340" height="272" key="GridCell.Tab.1.left" timestamp="1580786134464">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="272" key="GridCell.Tab.1.left/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580786134464" />
+    <state width="1340" height="272" key="GridCell.Tab.1.right" timestamp="1580786134464">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="272" key="GridCell.Tab.1.right/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580786134464" />
+    <state x="461" y="168" key="SettingsEditor" timestamp="1580821681006">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580821681006" />
+    <state x="1248" y="-721" key="com.intellij.ide.util.TipDialog" timestamp="1580441984710">
+      <screen x="-313" y="-1080" width="2560" height="1040" />
+    </state>
+    <state x="1248" y="-721" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-313.-1080.2560.1040@-313.-1080.2560.1040" timestamp="1580441984710" />
   </component>
 </project>
