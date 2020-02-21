@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0459784-b397-4f59-a1db-da98cb255f8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/EduPlanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/EduPlanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/PlanoDeEnsinoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/repository/PlanoDeEnsinoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/PlanoDeEnsinoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/PlanoDeEnsinoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unievangelica/eduplan/api/service/impl/PlanoDeEnsinoServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -153,6 +155,7 @@
       <workItem from="1580818298546" duration="756000" />
       <workItem from="1580821656561" duration="23000" />
       <workItem from="1580821699948" duration="8000" />
+      <workItem from="1582300423954" duration="811000" />
     </task>
     <servers />
   </component>
@@ -210,13 +213,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="272" key="GridCell.Tab.1.right/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580786134464" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1580821681006">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="594" y="1288" key="SettingsEditor" timestamp="1582301095176">
+      <screen x="301" y="1080" width="1920" height="1080" />
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/-313.-1080.2560.1050@0.0.1920.1050" timestamp="1580821681006" />
-    <state x="1248" y="-721" key="com.intellij.ide.util.TipDialog" timestamp="1580441984710">
-      <screen x="-313" y="-1080" width="2560" height="1040" />
+    <state x="594" y="1288" key="SettingsEditor/301.1080.1920.1080/0.0.2560.1080@301.1080.1920.1080" timestamp="1582301095176" />
+    <state x="1472" y="1453" key="com.intellij.ide.util.TipDialog" timestamp="1582300424936">
+      <screen x="301" y="1080" width="1920" height="1080" />
     </state>
     <state x="1248" y="-721" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-313.-1080.2560.1040@-313.-1080.2560.1040" timestamp="1580441984710" />
+    <state x="1472" y="1453" key="com.intellij.ide.util.TipDialog/301.1080.1920.1080/0.0.2560.1080@301.1080.1920.1080" timestamp="1582300424936" />
   </component>
 </project>

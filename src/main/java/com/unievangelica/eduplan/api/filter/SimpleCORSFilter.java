@@ -42,11 +42,9 @@ public class SimpleCORSFilter implements Filter {
 		} else {
 			chain.doFilter(req, resp);
 		}
-
 	}
 
 	@Override
 	public void destroy() {
 	}
-
 }

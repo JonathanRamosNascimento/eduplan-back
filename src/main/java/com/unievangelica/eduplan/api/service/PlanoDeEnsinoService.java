@@ -18,11 +18,5 @@ public interface PlanoDeEnsinoService {
 	
 	Page<PlanoDeEnsino> findByCurrentUser(int page, int count, String userId);
 	
-	// Page<PlanoDeEnsino> findByParameters(int page, int count,String disciplina);
-	
-	// Page<PlanoDeEnsino> findByParametersAndCurrentUser(int page, int count,String disciplina,String userId);
-	
-	// Page<PlanoDeEnsino> findByNumero(int page, int count,Integer numero);
-	
 	Iterable<PlanoDeEnsino> findAll();
 }

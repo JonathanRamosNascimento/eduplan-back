@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-
 @SpringBootApplication
 public class EduPlanApplication {
 
@@ -22,7 +21,6 @@ public class EduPlanApplication {
         return args -> {
             initUsers(userRepository, passwordEncoder);
         };
-
     }
     
 	private void initUsers(UserRepository userRepository, PasswordEncoder passwordEncoder) {

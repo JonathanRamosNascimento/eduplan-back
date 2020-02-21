@@ -41,21 +41,4 @@ public class PlanoDeEnsinoServiceImpl implements PlanoDeEnsinoService {
 		Pageable pages = new PageRequest(page, count);
 		return this.planoDeEnsinoRepository.findByUserIdOrderByDataDesc(pages,userId);
 	}
-	
-	// public Page<PlanoDeEnsino> findByParameters(int page, int count,String disciplina) {
-	// 	Pageable pages = new PageRequest(page, count);
-	// 	return this.planoDeEnsinoRepository.
-	// 			findByDisciplinaIgnoreCaseContainingOrderByDataDesc(disciplina,pages);
-	// }
-	
-	// public Page<PlanoDeEnsino> findByParametersAndCurrentUser(int page, int count,String disciplina,String userId) {
-	// 	Pageable pages = new PageRequest(page, count);
-	// 	return this.planoDeEnsinoRepository.
-	// 			findByDisciplinaIgnoreCaseContainingAndUserIdOrderByDataDesc(disciplina,userId,pages);
-	// }
-	
-	// public Page<PlanoDeEnsino> findByNumero(int page, int count,Integer numero){
-	// 	Pageable pages = new PageRequest(page, count);
-	// 	return this.planoDeEnsinoRepository.findByNumero(numero, pages);
-	// }
 }

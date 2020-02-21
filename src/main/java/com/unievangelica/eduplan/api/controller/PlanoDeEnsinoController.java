@@ -29,7 +29,6 @@ import com.unievangelica.eduplan.api.security.jwt.JwtTokenUtil;
 import com.unievangelica.eduplan.api.service.PlanoDeEnsinoService;
 import com.unievangelica.eduplan.api.service.UserService;
 
-
 @RestController
 @RequestMapping("/api/plano-de-ensino")
 @CrossOrigin(origins = "*")
@@ -138,8 +137,7 @@ public class PlanoDeEnsinoController {
 		planoDeEnsinoService.delete(id);
 		return ResponseEntity.ok(new Response<String>());
 	}
-	
-	
+
 	@GetMapping(value = "{page}/{count}")
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
     public  ResponseEntity<Response<Page<PlanoDeEnsino>>> findAll(HttpServletRequest request, @PathVariable int page, @PathVariable int count) {
@@ -155,31 +153,4 @@ public class PlanoDeEnsinoController {
 		response.setData(planosDeEnsino);
 		return ResponseEntity.ok(response);
     }
-	
-	// @GetMapping(value = "{page}/{count}/{numero}/{disciplina}")
-	// @PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
-    // public  ResponseEntity<Response<Page<PlanoDeEnsino>>> findByParams(HttpServletRequest request, 
-    // 		 							@PathVariable int page, 
-    // 		 							@PathVariable int count,
-    // 		 							@PathVariable Integer numero,
-    // 		 							@PathVariable String disciplina) {
-		
-	// 	disciplina = disciplina.equals("uninformed") ? "" : disciplina;
-
-	// 	Response<Page<PlanoDeEnsino>> response = new Response<Page<PlanoDeEnsino>>();
-	// 	Page<PlanoDeEnsino> planosDeEnsino = null;
-	// 	if(numero > 0) {
-	// 		planosDeEnsino = planoDeEnsinoService.findByNumero(page, count, numero);
-	// 	} else {
-	// 		User userRequest = userFromRequest(request);
-	// 		if(userRequest.getProfile().equals(ProfileEnum.ROLE_DIRETOR)) {
-	// 			planosDeEnsino = planoDeEnsinoService.findByParameters(page, count, disciplina);
-	// 		} else if(userRequest.getProfile().equals(ProfileEnum.ROLE_DOCENTE)) {
-	// 			planosDeEnsino = planoDeEnsinoService.findByParametersAndCurrentUser(page, count, disciplina, userRequest.getId());
-	// 		}
-	// 	}
-	// 	response.setData(planosDeEnsino);
-	// 	return ResponseEntity.ok(response);
-    // }
-	
 }
