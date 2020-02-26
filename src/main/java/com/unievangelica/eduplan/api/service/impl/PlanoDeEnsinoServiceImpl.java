@@ -12,10 +12,10 @@ import com.unievangelica.eduplan.api.service.PlanoDeEnsinoService;
 
 @Component
 public class PlanoDeEnsinoServiceImpl implements PlanoDeEnsinoService {
-	
+
 	@Autowired
 	private PlanoDeEnsinoRepository planoDeEnsinoRepository;
-	
+
 	public PlanoDeEnsino createOrUpdate(PlanoDeEnsino planoDeEnsino) {
 		return this.planoDeEnsinoRepository.save(planoDeEnsino);
 	}
@@ -32,13 +32,13 @@ public class PlanoDeEnsinoServiceImpl implements PlanoDeEnsinoService {
 		Pageable pages = new PageRequest(page, count);
 		return this.planoDeEnsinoRepository.findAll(pages);
 	}
-	
+
 	public Iterable<PlanoDeEnsino> findAll() {
 		return this.planoDeEnsinoRepository.findAll();
 	}
-	
+
 	public Page<PlanoDeEnsino> findByCurrentUser(int page, int count, String userId) {
 		Pageable pages = new PageRequest(page, count);
-		return this.planoDeEnsinoRepository.findByUserIdOrderByDataDesc(pages,userId);
+		return this.planoDeEnsinoRepository.findByUserIdOrderByDataDesc(pages, userId);
 	}
 }

@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class CurrentUser {
-	
+
 	private String token;
 	private User user;
 

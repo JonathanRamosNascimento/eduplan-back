@@ -1,8 +1,6 @@
 package com.unievangelica.eduplan.api.controller;
 
 import java.util.Date;
-import java.util.Random;
-
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,17 +34,17 @@ public class PlanoDeEnsinoController {
 
 	@Autowired
 	private PlanoDeEnsinoService planoDeEnsinoService;
-	
-    @Autowired
-    protected JwtTokenUtil jwtTokenUtil;
-    
+
+	@Autowired
+	protected JwtTokenUtil jwtTokenUtil;
+
 	@Autowired
 	private UserService userService;
 
 	@PostMapping()
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
-	public ResponseEntity<Response<PlanoDeEnsino>> create(HttpServletRequest request, @RequestBody PlanoDeEnsino planoDeEnsino,
-			BindingResult result) {
+	public ResponseEntity<Response<PlanoDeEnsino>> create(HttpServletRequest request,
+			@RequestBody PlanoDeEnsino planoDeEnsino, BindingResult result) {
 		Response<PlanoDeEnsino> response = new Response<PlanoDeEnsino>();
 		try {
 			validateCreatePlanoDeEnsino(planoDeEnsino, result);
@@ -71,17 +69,17 @@ public class PlanoDeEnsinoController {
 			return;
 		}
 	}
-	
+
 	public User userFromRequest(HttpServletRequest request) {
-        String token = request.getHeader("Authorization");
-        String email = jwtTokenUtil.getUsernameFromToken(token);
-        return userService.findByEmail(email);
-    }
-	
+		String token = request.getHeader("Authorization");
+		String email = jwtTokenUtil.getUsernameFromToken(token);
+		return userService.findByEmail(email);
+	}
+
 	@PutMapping()
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
-	public ResponseEntity<Response<PlanoDeEnsino>> update(HttpServletRequest request, @RequestBody PlanoDeEnsino planoDeEnsino,
-			BindingResult result) {
+	public ResponseEntity<Response<PlanoDeEnsino>> update(HttpServletRequest request,
+			@RequestBody PlanoDeEnsino planoDeEnsino, BindingResult result) {
 		Response<PlanoDeEnsino> response = new Response<PlanoDeEnsino>();
 		try {
 			validateUpdatePlanoDeEnsino(planoDeEnsino, result);
@@ -110,8 +108,8 @@ public class PlanoDeEnsinoController {
 			result.addError(new ObjectError("Plano de Ensino", "Title no information"));
 			return;
 		}
-	}	
-	
+	}
+
 	@GetMapping(value = "{id}")
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
 	public ResponseEntity<Response<PlanoDeEnsino>> findById(@PathVariable("id") String id) {
@@ -124,7 +122,7 @@ public class PlanoDeEnsinoController {
 		response.setData(planoDeEnsino);
 		return ResponseEntity.ok(response);
 	}
-	
+
 	@DeleteMapping(value = "/{id}")
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
 	public ResponseEntity<Response<String>> delete(@PathVariable("id") String id) {
@@ -140,17 +138,18 @@ public class PlanoDeEnsinoController {
 
 	@GetMapping(value = "{page}/{count}")
 	@PreAuthorize("hasAnyRole('DOCENTE','DIRETOR')")
-    public  ResponseEntity<Response<Page<PlanoDeEnsino>>> findAll(HttpServletRequest request, @PathVariable int page, @PathVariable int count) {
-		
+	public ResponseEntity<Response<Page<PlanoDeEnsino>>> findAll(HttpServletRequest request, @PathVariable int page,
+			@PathVariable int count) {
+
 		Response<Page<PlanoDeEnsino>> response = new Response<Page<PlanoDeEnsino>>();
 		Page<PlanoDeEnsino> planosDeEnsino = null;
 		User userRequest = userFromRequest(request);
-		if(userRequest.getProfile().equals(ProfileEnum.ROLE_DIRETOR)) {
+		if (userRequest.getProfile().equals(ProfileEnum.ROLE_DIRETOR)) {
 			planosDeEnsino = planoDeEnsinoService.listPlanoDeEnsino(page, count);
-		} else if(userRequest.getProfile().equals(ProfileEnum.ROLE_DOCENTE)) {
+		} else if (userRequest.getProfile().equals(ProfileEnum.ROLE_DOCENTE)) {
 			planosDeEnsino = planoDeEnsinoService.findByCurrentUser(page, count, userRequest.getId());
-        }
+		}
 		response.setData(planosDeEnsino);
 		return ResponseEntity.ok(response);
-    }
+	}
 }

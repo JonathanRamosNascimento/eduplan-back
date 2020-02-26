@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-EduPlanApplication<EduPlan>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.unievangelica.eduplan.EduPlanApplication",
+      "projectName": "EduPlan",
+      "args": ""
+    }
+  ]
+}

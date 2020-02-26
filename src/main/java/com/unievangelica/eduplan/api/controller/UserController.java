@@ -28,10 +28,10 @@ import com.unievangelica.eduplan.api.service.UserService;
 @RequestMapping("/api/user")
 @CrossOrigin(origins = "*")
 public class UserController {
-	
+
 	@Autowired
 	private UserService userService;
-	
+
 	@Autowired
 	private PasswordEncoder passwordEncoder;
 
@@ -64,7 +64,7 @@ public class UserController {
 			return;
 		}
 	}
-	
+
 	@PutMapping()
 	@PreAuthorize("hasAnyRole('DIRETOR')")
 	public ResponseEntity<Response<User>> update(HttpServletRequest request, @RequestBody User user,
@@ -85,7 +85,7 @@ public class UserController {
 		}
 		return ResponseEntity.ok(response);
 	}
-	
+
 	private void validateUpdate(User user, BindingResult result) {
 		if (user.getId() == null) {
 			result.addError(new ObjectError("User", "Id no information"));
@@ -96,7 +96,7 @@ public class UserController {
 			return;
 		}
 	}
-	
+
 	@GetMapping(value = "{id}")
 	@PreAuthorize("hasAnyRole('DIRETOR')")
 	public ResponseEntity<Response<User>> findById(@PathVariable("id") String id) {
@@ -109,7 +109,7 @@ public class UserController {
 		response.setData(user);
 		return ResponseEntity.ok(response);
 	}
-	
+
 	@DeleteMapping(value = "/{id}")
 	@PreAuthorize("hasAnyRole('DIRETOR')")
 	public ResponseEntity<Response<String>> delete(@PathVariable("id") String id) {
@@ -122,15 +122,14 @@ public class UserController {
 		userService.delete(id);
 		return ResponseEntity.ok(new Response<String>());
 	}
-	
-	
+
 	@GetMapping(value = "{page}/{count}")
 	@PreAuthorize("hasAnyRole('DIRETOR')")
-    public  ResponseEntity<Response<Page<User>>> findAll(@PathVariable int page, @PathVariable int count) {
+	public ResponseEntity<Response<Page<User>>> findAll(@PathVariable int page, @PathVariable int count) {
 		Response<Page<User>> response = new Response<Page<User>>();
 		Page<User> users = userService.findAll(page, count);
 		response.setData(users);
 		return ResponseEntity.ok(response);
-    }
-	
+	}
+
 }

@@ -41,23 +41,23 @@ public class PlanoDeEnsino {
 
 	private String objetivoGeral;
 
-    private String objetivoEspecifico;
+	private String objetivoEspecifico;
 
-    private String habilidadeCompetencias;
+	private String habilidadeCompetencias;
 
-    private String conteudoProgramatico;
+	private String conteudoProgramatico;
 
-    private String procedimentosDidaticos;
+	private String procedimentosDidaticos;
 
-    private String atividadeIntegrativa;
+	private String atividadeIntegrativa;
 
-    private String primeiraVA;
+	private String primeiraVA;
 
-    private String segundaVA;
+	private String segundaVA;
 
-    private String terceiraVA;
+	private String terceiraVA;
 
-    private String bibliografiaBasica;
+	private String bibliografiaBasica;
 
-    private String bibliografiaComplementar;
+	private String bibliografiaComplementar;
 }
